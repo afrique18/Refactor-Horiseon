@@ -1,3 +1,2 @@
-## 
+# Horiseon Code Refactor
 
-Changed title to Horiseon

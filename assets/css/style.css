@@ -1,4 +1,4 @@
-/* **** represent changes made to CSS */
+/** represent changes made to CSS file **/
 
 * {
     box-sizing: border-box;
@@ -40,7 +40,7 @@ body {
 .header nav ul {
     list-style-type: none;
 }
-
+/* makes links appear side by side */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -57,7 +57,7 @@ p {
     font-size: 16px;
 }
 
-/* background image between header and main content*/
+/* background image between header and main content */
 .hero {
     height: 800px;
     width: 100%;
@@ -67,7 +67,7 @@ p {
     background-position: center;
 }
 
-/* ** moved this aboved float left/right */
+/** moved this aboved float left & float right */
 /*stles first section of the page*/
 .content {
     width: 75%;
@@ -75,19 +75,19 @@ p {
     margin-left: 20px;
 }
 
-/* floats first and third article */
+/* floats first and third article left*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
-/* floats the second article */
+/* floats the second article right */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
-/*** consolidated CSS file by combining these three tags */
+/** consolidated CSS file by combining these three tags **/
 /* styles first three articles of the webpage*/
 .search-engine-optimization,
 .online-reputation-management,
@@ -99,7 +99,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-/*combined tags to consolidate CSS file*/
+/** combined tags to consolidate CSS file **/
 /* styles images for the first three articles */
 .search-engine-optimization img,
 .online-reputation-management img,
@@ -107,8 +107,8 @@ p {
     max-height: 200px;
 }
 
-/*combined tags to consolidate CSS file*/
-/* styles headers for first three articles*/
+/** combined tags to consolidate CSS file **/
+/*styles headers for first three articles*/
 .search-engine-optimization h2,
 .online-reputation-management h2,
 .social-media-marketing h2 {
@@ -128,7 +128,7 @@ p {
     background-color: #2589bd;
 }
 
-/* combined tags to consolidate CSS file */
+/** combined tags to consolidate CSS file **/
 /* styles images the three asides in second section */
 .benefit-lead,
 .benefit-brand,
@@ -136,8 +136,9 @@ p {
     margin-bottom: 32px;
     color: #ffffff;
 }
-/* combined tags to consolidate CSS file */
-/* styles header for second section */
+
+/** combined tags to consolidate CSS file **/
+/* styles headers in second section */
 .benefit-lead h3, 
 .benefit-brand h3,
 .benefit-cost h3 {
@@ -145,6 +146,8 @@ p {
     text-align: center;
 }
 
+/** combined tags to consolidate CSS file **/
+/* styles images in second section */
 .benefit-lead img,
 .benefit-brand img,
 .benefit-cost img  {
@@ -153,6 +156,7 @@ p {
     max-width: 150px;
 }
 
+/* styles footer */
 .footer {
     padding: 30px;
     clear: both;
@@ -160,6 +164,7 @@ p {
     text-align: center;
 }
 
+/* styles header for footer */
 .footer h2 {
     font-size: 20px;
 }

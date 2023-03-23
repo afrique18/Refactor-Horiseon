@@ -1,31 +1,34 @@
-/* all elements styling */
+/* **** represent changes made to CSS */
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
-/* body background color */
+/* changes background color of body*/
 body {
     background-color: #d9dcd6;
 }
-/* header styling */
+
+/* styles the header section */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* styles font size of the header */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* changes color of "seo" in the title of the homepage */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* styles navigation links */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -43,15 +46,18 @@ body {
     margin-left: 25px;
 }
 
+/* changes links color */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-/* paragraph styling */
+
+/* changes font size of paragraph */
 p {
     font-size: 16px;
 }
-/* figure background image */
+
+/* background image between header and main content*/
 .hero {
     height: 800px;
     width: 100%;
@@ -60,59 +66,30 @@ p {
     background-size: cover;
     background-position: center;
 }
-/* main page content */
 
-/* positioning to keep content on the left*/
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-/* positioning to keep content on the right*/
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* ** moved this aboved float left/right */
+/*stles first section of the page*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/* search engine section */
-.search-engine-optimization img {
-    max-height: 200px;
-}
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+/* floats first and third article */
+.float-left {
+    float: left;
+    margin-right: 25px;
 }
 
-/* online reputation section */
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+/* floats the second article */
+.float-right {
+    float: right;
+    margin-left: 25px;
 }
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-.online-reputation-management img {
-    max-height: 200px;
-}
-/* social media section */
+
+/*** consolidated CSS file by combining these three tags */
+.search-engine-optimization,
+.online-reputation-management,
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -121,15 +98,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-.social-media-marketing img {
-    max-height: 200px;
-}
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
-/* aside section  */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -188,7 +157,36 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-/* footer section styling */
+
+
+
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
 .footer {
     padding: 30px;
     clear: both;

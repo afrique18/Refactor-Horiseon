@@ -7,7 +7,7 @@ SO THAT our own site is optimized for search engines
 
 ## Acceptance Criteria
 GIVEN a webpage meets accessibility standards
-<li>WHEN I view the source code<li>
+<li>WHEN I view the source code</li>
 <li>THEN I find semantic HTML elements</li>
 <li>WHEN I view the structure of the HTML elements</li>
 <li>THEN I find that the elements follow a logical structure independent of styling and positioning</li>

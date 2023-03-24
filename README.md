@@ -10,5 +10,6 @@ The purpose of this challenge was to refactor a given codebase for the Horiseon 
 <li> Add comments to HTML and CSS files for clarity</li>
 
 ## Sreenshot
-
+![Alt text](assets/images/Screenshot%202023-03-23%20at%204.37.47%20PM.png)
+![Alt text](assets/images/Screenshot%202023-03-23%20at%204.35.44%20PM.png)
 ## Links

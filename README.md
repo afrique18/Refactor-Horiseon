@@ -15,7 +15,6 @@ WHEN I view the heading attributes
 THEN they fall in sequential order
 WHEN I view the title element
 THEN I find a concise, descriptive title
-```
 ## Description
 The purpose of this challenge was to refactor a given codebase for the Horiseon website homepage, to follow accessibility standards. As a bootcamp student, I will refactor the code to ensure the Horiseon webpage meets accessibility standard, as well as improve codebase for long-term sustainability. I will achieve the goal when I:
 

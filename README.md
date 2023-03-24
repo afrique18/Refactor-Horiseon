@@ -38,3 +38,6 @@ The purpose of this challenge was to refactor a given codebase for the Horiseon 
 ## URL
 <li>URL of the deployed application</li>
 https://afrique18.github.io/refactor-horiseon/
+
+<li>URL of the GitHub repository</li>
+https://github.com/afrique18/refactor-horiseon

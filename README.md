@@ -37,3 +37,5 @@ The purpose of this challenge was to refactor a given codebase for the Horiseon 
 <li>https://zoom.us/rec/play/77tdP2b-QydH0VS19pJNAZyY-wIkwNnuBIHoTN1sAcxnqsyBY6dDg3WARDUZ2roxRqRIlQkFcZU2F6Dh.nGRXdol98FzuKJ0W</li>
 
 ## URL
+<li>URL of the deployed application</li>
+https://afrique18.github.io/refactor-horiseon/

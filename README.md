@@ -7,16 +7,16 @@ SO THAT our own site is optimized for search engines
 
 ## Acceptance Criteria
 GIVEN a webpage meets accessibility standards
-WHEN I view the source code
-THEN I find semantic HTML elements
-WHEN I view the structure of the HTML elements
-THEN I find that the elements follow a logical structure independent of styling and positioning
-WHEN I view the icon and image elements
-THEN I find accessible alt attributes
-WHEN I view the heading attributes
-THEN they fall in sequential order
-WHEN I view the title element
-THEN I find a concise, descriptive title
+<li>WHEN I view the source code<li>
+<li>THEN I find semantic HTML elements</li>
+<li>WHEN I view the structure of the HTML elements</li>
+<li>THEN I find that the elements follow a logical structure independent of styling and positioning</li>
+<li>WHEN I view the icon and image elements</li>
+<li>THEN I find accessible alt attributes</li>
+<li>WHEN I view the heading attributes</li>
+<li>THEN they fall in sequential order</li>
+<li>WHEN I view the title element</li>
+<li>THEN I find a concise, descriptive title</li>
 
 ## Description
 The purpose of this challenge was to refactor a given codebase for the Horiseon website homepage, to follow accessibility standards. As a bootcamp student, I will refactor the code to ensure the Horiseon webpage meets accessibility standard, as well as improve codebase for long-term sustainability. I will achieve the goal when I:
